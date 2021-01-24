@@ -22,12 +22,19 @@
 	</body>
 	<script id_="1010888960" file="MOD/Script/TreeMaterial.lua"/>
 	<body id_="89593184" tags="map"/>
-	<group id_="868142848" open_="true">
-		<vox id_="1266232832" pos="3.0 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
-		<vox id_="1092551808" pos="3.6 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
-		<vox id_="606965952" pos="4.2 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
-		<vox id_="303843456" pos="4.8 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+	<group id_="868142848">
+		<vox id_="1266232832" tags="pickupWood" pos="3.0 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+		<vox id_="1092551808" tags="pickupWood" pos="3.6 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+		<vox id_="606965952" tags="pickupWood" pos="4.2 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+		<vox id_="303843456" tags="pickupWood" pos="4.8 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
 	</group>
+	<script id_="1978914816" file="MOD/Script/MaterialAtCursor.lua"/>
+	<script id_="819315520" file="MOD/Script/MainSurvival.lua"/>
+	<script id_="741847232" file="MOD/Script/PickUpWood.lua"/>
+	<trigger id_="1342980096" open_="true" tags="material" pos="5.8 0.9 8.0" type="box" size="1 1 1">
+		<voxbox id_="83563504" pos="-0.5 -0.2 -0.5" size="10 1 10" color="0.62 0.62 0.62"/>
+	</trigger>
+	<script id_="231814976" file="MOD/Script/materialCompostion.lua"/>
 	<layers/>
 </scene>
 
