@@ -1,0 +1,33 @@
+<scene id_="1343045632" open_="true" version="0.5.4" shadowVolume="200 100 200">
+	<environment id_="640719040" template="sunny" skyboxrot="-45"/>
+	<body id_="433547104">
+		<voxbox id_="89789800" pos="-100.0 -0.1 -100.0" size="2000 1 2000"/>
+	</body>
+	<body id_="895014272">
+		<vox id_="1006432256" pos="0.0 0.0 0.0" file="LEVEL/basic.vox"/>
+	</body>
+	<boundary id_="1504142976">
+		<vertex pos="-100.0 -100.0"/>
+		<vertex pos="100.0 -100.0"/>
+		<vertex pos="100.0 100.0"/>
+		<vertex pos="-100.0 100.0"/>
+	</boundary>
+	<script id_="1268395648" file="main.lua"/>
+	<script id_="903272256" file="sandbox.lua"/>
+	<body id_="821347264" pos="0.1 -0.1 0.5">
+		<vox id_="1462590592" open_="true" tags="tree" pos="-0.1 0.1 6.9" prop="true" file="LEVEL/tree-pine-small.vox">
+			<joint id_="2131491840" rotstrength="100000"/>
+			<joint id_="643209536" pos="0.0 0.0 -0.2" rotstrength="100000"/>
+		</vox>
+	</body>
+	<script id_="1010888960" file="MOD/Script/TreeMaterial.lua"/>
+	<body id_="89593184" tags="map"/>
+	<group id_="868142848" open_="true">
+		<vox id_="1266232832" pos="3.0 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+		<vox id_="1092551808" pos="3.6 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+		<vox id_="606965952" pos="4.2 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+		<vox id_="303843456" pos="4.8 0.0 8.3" prop="true" file="LEVEL/wood_fire.vox" object="1"/>
+	</group>
+	<layers/>
+</scene>
+
